@@ -5,10 +5,10 @@ const Tooltip = ({current}) => {
 
     return(
 
-        <div>
-            { current===1 && <h2>This is a tooltip</h2>}
-            { current===2 && <p>This is another tooltip</p>}
-        </div>
+        <>
+            { current===1 && <>This is a tooltip</>}
+            { current===2 && <>This is another tooltip</>}
+        </>
 
     )
 
