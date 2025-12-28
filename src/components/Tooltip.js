@@ -1,13 +1,13 @@
 import React from "react";
 
 
-const Tooltip = ({current}) => {
+const Tooltip = ({current,text}) => {
 
     return(
 
         <div>
-            { current===1 && <>This is a tooltip</>}
-            { current===2 && <>This is another tooltip</>}
+            { current===1 && text}
+            { current===2 && text}
         </div>
 
     )

@@ -1,1 +1,8 @@
+h2.tooltip > div{
+    background-color: red;
+}
 
+
+p.tooltip > div{
+    background-color: green;
+}
