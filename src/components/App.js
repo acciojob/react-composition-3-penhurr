@@ -8,7 +8,7 @@ const App = () => {
   const [current, setCurrent] = useState(0)
 
   return (
-    <>
+    <div>
       {/* Do not remove the main div */}
       
         
@@ -34,7 +34,7 @@ const App = () => {
           <span>Hover over me to see another tooltip</span>
         </p>
       
-    </>
+    </div>
   )
 }
 
