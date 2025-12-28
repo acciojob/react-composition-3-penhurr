@@ -1,13 +1,12 @@
 import React from "react";
 
 
-const Tooltip = ({current,text}) => {
+const Tooltip = ({text}) => {
 
     return(
 
         <div>
-            { current===1 && text}
-            { current===2 && text}
+            { text}
         </div>
 
     )
