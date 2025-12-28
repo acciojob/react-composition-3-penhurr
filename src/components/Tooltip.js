@@ -5,7 +5,7 @@ const Tooltip = ({text}) => {
 
     return(
 
-        <div>
+        <div style={{ pointerEvents: "none" }}>
             { text}
         </div>
 
